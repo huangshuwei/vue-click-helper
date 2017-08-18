@@ -13,14 +13,22 @@ npm i vue-click-helper -D
 ```
 
 # Basic Usage
+
+```html
+<template>
+    <div v-click-helper="clickHelper">click me</div>
+</template>
+
+```
+
 ```javascript
 import Vue from 'vue'
 import vueClickHelper from 'vue-click-helper'
 
-Vue.directive('click-helper', vueClickHelper)
-
 export default{
-
+    directives: {
+        'click-helper': vueClickHelper
+    },
     methods:{
 
             clickHelper(e,isDoubleClick){
@@ -38,16 +46,15 @@ export default{
 }
 ```
 
-```html
- <div v-click-helper="clickHelper">click me</div>
-```
 
 # Advanced
 
 If you want to set, execute double click within 290 milliseconds,just:
 
 ```html
- <div v-click-helper:290="clickHelper">click me</div>
+<template>
+    <div v-click-helper:290="clickHelper">click me</div>
+</template>
 ```
 
 # License
