@@ -1,6 +1,6 @@
 {
   "name": "vue-click-helper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Vue directive to distinguish between click and double click",
   "main": "dist/clickHelper.js",
   "scripts": {
