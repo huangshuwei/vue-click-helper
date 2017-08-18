@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/huangshuwei/vue-clickHelper"
+    "url": "https://github.com/huangshuwei/vue-click-helper"
   },
-  "homepage": "https://github.com/huangshuwei/vue-clickHelper/blob/master/README.md",
+  "homepage": "https://github.com/huangshuwei/vue-click-helper/blob/master/README.md",
   "keywords": [
     "vue",
     "click",
