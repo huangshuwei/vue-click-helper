@@ -1,8 +1,8 @@
 {
-  "name": "vue-clickhelper",
+  "name": "vue-click-helper",
   "version": "0.0.1",
   "description": "A Vue directive to distinguish between click and double click",
-  "main": "dist/vue-clickhelper",
+  "main": "dist/clickHelper",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
