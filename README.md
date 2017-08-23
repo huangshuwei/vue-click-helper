@@ -1,6 +1,6 @@
 # vue-click-helper
 
-A Vue2.x directive to handle click event and dblclick event on same element
+Vue2.x directive to handle click event and dblclick event on same element
 
 ## Introduction
 
