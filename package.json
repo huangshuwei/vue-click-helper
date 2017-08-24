@@ -3,8 +3,14 @@
   "version": "0.0.2",
   "description": "A Vue directive to distinguish between click and double click",
   "main": "dist/clickHelper.js",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dist":"babel src --out-dir dist"
   },
   "repository": {
     "type": "git",
