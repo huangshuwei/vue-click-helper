@@ -1,6 +1,6 @@
 # vue-click-helper
 
-A Vue directive  to distinguish between click and double click.
+Vue2.x directive to handle click event and dblclick event on same element
 
 ## Introduction
 
